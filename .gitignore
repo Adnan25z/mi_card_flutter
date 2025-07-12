@@ -1,9 +1,35 @@
 .dart_tool/
 .idea/
 build/
+.android/
+.ios/
 android/.gradle/
 *.iml
 pubspec.lock
+
+# Flutter plugin and package build outputs
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# iOS
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/local.properties
+android/key.properties
 *.jks
-key.properties
-local.properties
+
+# VS Code
+.vscode/
+
+# macOS/Linux/Windows build outputs (optional for multi-platform apps)
+macos/
+linux/
+windows/
+
+# Misc
+*.log
